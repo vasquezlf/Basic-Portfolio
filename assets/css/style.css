@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif,  Georgia, 'Times New Roman', Times, serif;
     background-image: url("../images/textured_paper.png");
     min-height: 100vh;
-    position: relative;
+    font-size: .8rem;
 }
 
 h1, h2, h3 {
@@ -14,7 +14,6 @@ p {
     line-height: 1.8em;
 }
 nav {
-    height: 60px;
     box-shadow: 5px 5px 5px grey;
 }
 
@@ -24,7 +23,6 @@ footer {
 }
 
 #nav-brand{
-    position: relative;
     height: 100%;
     right: -7%;
     vertical-align: middle;
