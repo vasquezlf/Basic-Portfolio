@@ -54,3 +54,44 @@ footer {
     background-color: rgba(4, 223, 223, 0.75);
     color: aliceblue;
 }
+
+
+/* Small screen - DEFAULT*/
+.grid-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2,100%);
+}
+
+/* .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.card > div > img {
+    max-width: 90%;
+    height: auto;
+    margin: 3px 5% 10px;
+}
+
+/* Medium screen */
+@media only screen and (min-width: 768px){
+
+    .grid-container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(2,100%);
+        padding: 0 5%;
+    }
+
+    .card > div > img {
+        max-width: 50%;
+        height: auto;
+        margin: 3px 5% 10px;
+        float: left;
+    }
+
+}
